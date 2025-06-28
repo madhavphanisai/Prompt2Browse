@@ -51,8 +51,14 @@ cd prompt2browse
 ```bash
 pip install -r requirements.txt
 ```
+### 3. Install Playwright browser binaries
 
-### 3. Set your Gemini API Key
+```bash
+playwright install
+
+```
+
+### 4. Set your Gemini API Key
 
 In `main.py`, replace the API key value:
 
@@ -60,7 +66,7 @@ In `main.py`, replace the API key value:
 API_KEY = "your-gemini-api-key-here"
 ```
 
-### 4. Run the project
+### 5. Run the project
 
 ```bash
 python main.py
